@@ -168,7 +168,9 @@ En el siguiente código implementado en `Python` se utilizan la librería `numpy
 
 ### Perceptrón como clasificador binario
 
-* [ejemplo de entrenamiento Iris con scikit-learn](./code/perceptron_sklearn_binary.ipynb)
+scikit-learn permite la implementación del Perceptrón mediante la clase `Perceptron` del módulo `sklearn.linear_model`. Este estimador es una versión moderna del algoritmo propuesto por Rosenblatt, con opciones adicionales como **tolerancia**, **número máximo de iteraciones** y **regularización**.
+
+* [Ejemplo de entrenamiento Iris con scikit-learn](./code/perceptron_sklearn_binary.ipynb)
 ---
 
 ### 4. El problema de representación
@@ -176,6 +178,8 @@ En el siguiente código implementado en `Python` se utilizan la librería `numpy
 Es importante notar que la convergencia del perceptrón es solamente garantizada si las dos clases son linealmente separables y la tasa de aprendizaje es suficientemente pequeña. Si las dos clases no pueden ser separadas por un límite de decisión lineal, podremos solo especificar un número máximo de pasadas sobre el conjunto de entrenamiento (épocas) o un umbral para el número de clasificaciones incorrectas toleradas, el perceptrón podría nunca parar de actualizar los pesos de otro modo. 
 
 ![separable](./img/separable.png)
+
+
 
 ---
 

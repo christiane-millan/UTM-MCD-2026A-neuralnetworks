@@ -6,4 +6,7 @@ por: Christian Millán
 
 ### 1. Introducción
 
-1.1. Perceptrón
+- [1.2. Perceptrón](./l01-intro/README.md)
+- [1.3. Adaline]()
+
+### 2. Perceptrón Multicapa
