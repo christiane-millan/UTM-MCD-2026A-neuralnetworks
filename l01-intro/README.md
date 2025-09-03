@@ -166,11 +166,7 @@ En el siguiente código implementado en `Python` se utilizan la librería `numpy
 
 * [Ejemplo de entrenamiento con compuerta AND](./code/perceptron-example.ipynb)
 
-### Perceptrón como clasificador binario
 
-scikit-learn permite la implementación del Perceptrón mediante la clase `Perceptron` del módulo `sklearn.linear_model`. Este estimador es una versión moderna del algoritmo propuesto por Rosenblatt, con opciones adicionales como **tolerancia**, **número máximo de iteraciones** y **regularización**.
-
-* [Ejemplo de entrenamiento Iris con scikit-learn](./code/perceptron_sklearn_binary.ipynb)
 ---
 
 ### 4. El problema de representación
@@ -179,17 +175,21 @@ Es importante notar que la convergencia del perceptrón es solamente garantizada
 
 ![separable](./img/separable.png)
 
-
-
+<!--
 ---
+Practicas para 
 
 * [Práctica 1. Aprendizaje del perceptrón Iris](./code/01-practice-perceptron/README.md)
 * [Práctica 2. Reconocimiento de dígitos 0 - 9]()
+
+-->
 ---
 
 ### Implementación de Perceptrón con SciKit-Learn
 
-La librería Scikit-Learn implementa el Perceptrón. Para más deatalles visiar la documentación [Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Perceptron.html).
+scikit-learn permite la implementación del Perceptrón mediante la clase `Perceptron` del módulo `sklearn.linear_model`. Este estimador es una versión moderna del algoritmo propuesto por Rosenblatt, con opciones adicionales como **tolerancia**, **número máximo de iteraciones** y **regularización**. Para más deatalles visiar la documentación [Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Perceptron.html).
+
+* [Ejemplo de entrenamiento Iris con scikit-learn](./code/perceptron_sklearn_binary.ipynb)
 
 * [`Ejemplo 2. Perceptron ScikitLearn`](./code/perceptron_sklrn_iris.ipynb)
 * [Práctica 3. ](./code/02-pr_ppn_breast_cancer.ipynb)
